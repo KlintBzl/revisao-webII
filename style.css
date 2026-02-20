@@ -40,6 +40,12 @@ header {
     color: rgb(255, 248, 237);
 }
 
+#Sobre {
+    border-left: 20px;
+    border-right: 20px;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
 p {
     color: rgb(255, 248, 237);
     text-align: center;
