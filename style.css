@@ -82,6 +82,28 @@ footer a {
     color: white;
 }
 
+#btnTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    /* começa escondido */
+
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+#btnTopo:hover {
+    background: #1b5e20;
+}
+
 .section h2 {
     font-size: 2rem;
     margin-bottom: 20px;

@@ -13,3 +13,20 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
+
+const botao = document.getElementById("btnTopo");
+
+window.onscroll = function () {
+    if (document.documentElement.scrollTop > 300) {
+        botao.style.display = "block";
+    } else {
+        botao.style.display = "none";
+    }
+};
+
+function voltarAoTopo() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
