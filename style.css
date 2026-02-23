@@ -80,6 +80,11 @@ body {
 
 footer a {
     color: white;
+    cursor: pointer;
+}
+
+.nav.scrolled {
+    background-color: rgba(0, 0, 0, 0.349);
 }
 
 #btnTopo {
@@ -87,8 +92,6 @@ footer a {
     bottom: 20px;
     right: 20px;
     display: none;
-    /* começa escondido */
-
     background: #2e7d32;
     color: white;
     border: none;
