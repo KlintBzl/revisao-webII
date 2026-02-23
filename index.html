@@ -4,34 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./imagens/icone.png">
-    <title>Início</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JS.js" defer></script>
+    <title>Home</title>
 </head>
 
 <body>
-    <header>
-        <div id="header">
-            <h1 id="tit">Movimento escoteiro</h1>
-            <img src="./imagens/folha.png" alt="Folha" id="folha">
+    <nav class="nav">
+        <div><strong>Escotismo</strong></div>
+        <div>
+            <a href="#sobre">Sobre</a>
+            <a href="#beneficios">Benefícios</a>
+            <a href="#participar">Participar</a>
+        </div>
+    </nav>
+
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Aventura, valores e amizade para a vida toda</h1>
+            <p>Formando jovens protagonistas através da natureza, cooperação e aprendizado na prática.</p>
+            <a href="#participar" class="cta">Quero participar</a>
         </div>
     </header>
 
-    <main>
-        <h1 id="Venha">Entre para o movimento escoteiro!</h1>
-        <p>Formando jovens protagonistas através da natureza, da cooperação e do aprendizado na prática.</p>
-    </main>
-    <section id="Sobre">
-        <p>O escotismo é um movimento educacional presente no mundo inteiro, dedicado ao desenvolvimento de <br>
-            crianças e jovens por meio de atividades ao ar livre, trabalho em equipe e serviço à comunidade. <br>
-            Inspirado nos princípios da Organização Mundial do Movimento Escoteiro, ele promove autonomia, <br>
-            liderança e responsabilidade de forma divertida e significativa.</p>
-    </section>
-    <section id="Atividades">
-        <h2>Atividades</h2>
+
+    <section id="sobre" class="section">
+        <h2>O que é o Movimento Escoteiro?</h2>
+        <p>
+            O escotismo é um movimento educacional que desenvolve jovens por meio de atividades
+            ao ar livre, trabalho em equipe e serviço à comunidade, incentivando liderança,
+            autonomia e responsabilidade.
+        </p>
+        <img src="./imagens/banner.png" alt="Banner" id="baner">
     </section>
 
+
+    <section id="beneficios" class="section">
+        <h2>Benefícios</h2>
+
+        <div class="beneficios">
+            <div class="card">🌿 Contato com a natureza</div>
+            <div class="card">🤝 Trabalho em equipe</div>
+            <div class="card">🧭 Desenvolvimento de liderança</div>
+            <div class="card">⭐ Novas amizades</div>
+            <div class="card">🏕️ Aventura e aprendizado</div>
+            <div class="card">💚 Valores para a vida</div>
+        </div>
+    </section>
+
+    <section id="participar" class="cta-section">
+        <h2>Pronto para começar a aventura?</h2>
+        <p>Junte-se ao movimento escoteiro e viva experiências que vão marcar sua vida.</p>
+        <br>
+        <a href="#" class="cta" onclick="abrirFormulario()">Quero participar</a>
+    </section>
+
+    <footer>
+        © 2026 - Klint Burzlaff Berta Lemes
+    </footer>
+
+    <div id="modalForm" class="modal">
+        <div class="modal-content">
+            <span class="fechar" onclick="fecharFormulario()">&times;</span>
+
+            <h2>Participe do Movimento Escoteiro</h2>
+
+            <form>
+                <input type="text" placeholder="Seu nome/Responsável" required>
+                <input type="email" placeholder="Seu email/Responsável" required>
+                <input type="tel" placeholder="Telefone/Responsável">
+
+                <select required>
+                    <option value="">Faixa etária</option>
+                    <option>Lobinho(6 - 10,5)</option>
+                    <option>Escoteiro(10,5 - 14,5)</option>
+                    <option>Sênior(14,5 - 18)</option>
+                    <option>Pioneiro(18 - 21)</option>
+                    <option>Adulto Voluntário(21+)</option>
+                </select>
+
+                <textarea placeholder="Mensagem" rows="4"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
 </body>
-<footer>Acessos rápidos</footer>
 
 </html>
