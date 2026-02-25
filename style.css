@@ -292,12 +292,20 @@ footer {
     display: block;
 }
 
+#What {
+    width: 30px;
+}
+
 #pininho {
     width: 20px;
 }
 
 #diva a {
     text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @media (max-width: 600px) {
