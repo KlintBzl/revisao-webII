@@ -1,4 +1,4 @@
-# ⚜️ Movimento Escoteiro
+# ⚜️ Movimento Escoteiro 🌿
 
 Landing page desenvolvida para apresentar o Movimento Escoteiro, seus valores e benefícios, além de facilitar o contato de interessados em participar.
 
@@ -6,7 +6,7 @@ O projeto foi criado com foco em **design moderno, responsividade e experiência
 
 ---
 
-## 🌿 Sobre o projeto
+##  Sobre o projeto
 
 O site tem como objetivo divulgar o escotismo e incentivar a participação de jovens e responsáveis, apresentando informações de forma clara e visual.
 
@@ -24,7 +24,7 @@ A página inclui:
 
 ---
 
-## 🚀 Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - HTML5  
 - CSS3 (Flexbox + Media Queries)  
@@ -32,7 +32,7 @@ A página inclui:
 
 ---
 
-## 📱 Responsividade
+##  Responsividade
 
 O site foi projetado para funcionar corretamente em:
 
@@ -44,7 +44,7 @@ Inclui reorganização de layout, ajuste de menu e elementos em coluna no mobile
 
 ---
 
-## 🎯 Funcionalidades
+##  Funcionalidades
 
 ✔ Navegação com scroll suave  
 ✔ Carrossel automático e manual  
@@ -55,7 +55,7 @@ Inclui reorganização de layout, ajuste de menu e elementos em coluna no mobile
 
 ---
 
-## 📂 Estrutura de arquivos
+##  Estrutura de arquivos
 
 
 📁 projeto
@@ -64,28 +64,18 @@ Inclui reorganização de layout, ajuste de menu e elementos em coluna no mobile
 ├── JS.js
 └── 📁 imagens
 
-
 ---
 
-## 🧭 Como usar
+##  Como usar
 
 1. Baixe ou clone o repositório  
 2. Abra o arquivo `index.html` no navegador  
 
-Ou publique diretamente no GitHub Pages.
+Ou entre diretamente no GitHub Pages.
 
 ---
 
-## 📌 Melhorias futuras
-
-- Integração real do formulário (backend ou serviço externo)  
-- Otimização de SEO  
-- Animações mais avançadas  
-- Painel de administração de conteúdo  
-
----
-
-## 👨‍💻 Autor
+##  Autor
 
 Desenvolvido por **Klint Burzlaff Berta Lemes**
 
